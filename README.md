@@ -2,13 +2,16 @@
 
 ![shower holder support parts preview](./docs/shower_holder_support_part_preview.png)
 
+## OpenSCAD dependencies
+
+- [NopSCADlib](https://github.com/nophead/NopSCADlib)
+- [BSOL](https://github.com/revarbat/BOSL)
+
 ## Parameters
 
 Parameters can be change inside [./src/parameters.scad](./src/parameters.scad)
 
-| Parameter | Description |
-| --- | --- |
-| BAR_DIAMETER | Diameter of the bar to attach the support |
+![shower_handle_screw_parameters](./docs/shower_handle_screw_parameters.excalidraw.png)
 
 ## Assembly
 
