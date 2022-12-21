@@ -45,7 +45,7 @@ module shower_support(
         translate([0,0,(depth-thickness)/2])
         translate([-50, -50, 0])
             linear_extrude(height=thickness+2, center = true, convexity = 10)
-                import("../assets/leaf-inverted.svg");
+                import("./assets/leaf-inverted.svg");
 
         
         copy_mirror([1, 0, 0])
@@ -61,7 +61,7 @@ module shower_support(
     translate([0,0,(depth-thickness)/2])
     translate([-50, -50, -2.001])
         linear_extrude(height=2, convexity = 10)
-            import("../assets/leaf.svg");
+            import("./assets/leaf.svg");
 
 }
 
